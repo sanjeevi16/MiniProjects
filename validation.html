@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation-Form</title>
+   <link rel="stylesheet" href="../Css/validation.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<body>
+          <div id="main">
+
+          <div id="form">
+
+            <div id="fc">
+                <h2 id="sign">SIGN-UP</h2>
+              <div id="form-con">
+            <div id="student-username">
+             <label for="">Student Name</label>
+             <input type="text"   class="input" id="sname">
+            </div>
+            <p class="form-para" id="sname-para">Please Enter This Field *</p>
+            <div id="student-email">
+                <label for="">Student Email</label>
+                <input type="email"  class="input" id="semail" >
+               </div>
+            <p class="form-para" id="semail-para">Please Enter This Field *</p>
+            <div id="password">
+                <label for="">Password</label>
+                
+                    <input type="password" class="input" id="pass">
+                <i class="fa-solid fa-eye fa-1x" id="eye"></i>
+                </div>
+            <p class="form-para" id="pass-para">Please Enter This Field *</p>
+            <div id="newpassword">
+            <label for="">New Password</label>
+                
+            <input type="password" class="input" id="newpass">
+            <i class="fa-solid fa-eye fa-1x" id="n-eye"></i>
+            
+        </div>
+        <p class="form-para" id="npass-para">Please Enter This Field *</p>
+
+        <h3 id="linklog"><a href="#form1">Already have account? Log-in</a></h3>
+            <button id="sub-btn">submit</button>
+            </div>
+
+        
+          </div>
+        </div>
+        
+        <div id="form1">
+
+          <div id="fc">
+              <h2 id="sign">Login</h2>
+            <div id="form-con">
+          <div id="student-username">
+           <label for="">Student Name</label>
+           <input type="text"   class="input" id="logsname">
+          </div>
+          <p class="form-para" id="logsname-para">Please Enter This Field *</p>
+          <p  id="logsname-in">Invalid Username*</p>
+        
+          <div id="password">
+              <label for="">Password</label>
+              
+                  <input type="password" class="input" id="logpass">
+              <i class="fa-solid fa-eye fa-1x" id="logeye"></i>
+              </div>
+          <p class="form-para" id="logpass-para">Please Enter This Field *</p>
+       
+
+      <h3 id="linkreg"><a href="#form">Don't have account click here?</a></h3>
+          <button id="log-btn">submit</button>
+          </div>
+        </div>
+      </div>
+          </div>
+
+    <script src="../Js/validation.js"></script>
+
+    <script src="https://kit.fontawesome.com/0971cbf69a.js" crossorigin="anonymous"></script>
+</body>
+</html>

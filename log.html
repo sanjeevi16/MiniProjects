@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding:0px;
+    }
+    #main{
+        display:flex;
+        border: 1px solid black;
+        background-color: black;
+    }
+    #left{
+        height:120px;
+        width:50%;
+        text-align: center  ;
+    }
+    #right{
+        height:120px;
+        width:50%;
+        text-align: center;
+    }
+    .btn{
+        width:250px;
+        height:80px;
+        margin-top:15px;
+        background-color:rgb(158, 158, 230);
+        color:white;
+        
+        border: none;
+    }
+    
+#content,#content1{
+    height:83vh;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    word-spacing: 50px;
+    background-color:lightcoral;
+    
+}
+#content1{
+    display:none;
+}
+#imp{
+    
+    margin-top:80px;
+}
+.btn:hover{
+    background-color: blue;
+    transition:0.3s;
+   
+}
+.lab{
+
+      font-size: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.in{
+    width:200px;
+    height:20px;
+    border-radius: 20px;
+    border:3px solid black;
+}
+.mbtn{
+    height: 30px;
+    width:150px;
+    color: azure;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:18px;
+}
+</style>
+<body>
+    
+
+  <div id="main">
+   <div id="left">
+    <button id="logbtn" class="btn"onclick="log()">LOG-IN</button> </div>
+   <div id="right">
+    <button id="signbtn" class="btn" onclick="sig()">SIGN-Up</button>
+   </div>
+  </div>
+
+  <div id="content">
+      <div id="imp">
+        <label for="" class="lab">
+            UserName
+        </label>
+        <input type="text" class="in">
+        <br>
+    
+        <label for="" class="lab">Password</label>
+        <input type="password " class="in">
+        <br>
+        <div class="click">
+            <button class="mbtn">Log-IN</button>
+            <button class="mbtn">Sign-In</button>
+        </div>
+      </div>
+  </div>
+  <div id="content1">
+    <div id="imp">
+      <label for="" class="lab">
+          CreateUserName
+      </label>
+      <input type="text" class="in">
+      <br>
+  
+      <label for="" class="lab">CreatePassword</label>
+      <input type="password " class="in">
+      <br>
+      <div class="click">
+          <button class="mbtn">Log-IN</button>
+          <button class="mbtn">Sign-In</button>
+      </div>
+    </div>
+</div>
+
+
+
+    <script src="../Js/log.js"></script>
+</body>
+</html>
